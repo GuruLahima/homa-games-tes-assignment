@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2691734103244826923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2691734103244826933}
+  - component: {fileID: 2691734103244826932}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2691734103244826933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691734103244826923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2691734103244826932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691734103244826923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d52e8a770ea8bc4f9bcfd1a7b35c229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cylinderColors:
+  - {fileID: 2100000, guid: 52591d3d3d8cca640b06db0ba67c8c6b, type: 2}
+  - {fileID: 2100000, guid: 680e4ec28e0ca0a4380469992a800f12, type: 2}
+  - {fileID: 2100000, guid: bfa0857966096f548915d7dae4e51b66, type: 2}
+  gameWon: 0
+  chooseTowerType: 0
+  tetrisDisks: []
+  infiniteLevel: 1
+  winPercentage: 92
+  thisObjectIsSpawnPoint: 1
+  spawnCenter: {fileID: 0}
+  radius: 1.3
+  pieceCount: 14
+  floorCount: 20
+  rotateFloors: 1
+  discPrefab: {fileID: 0}
+  lockedCylinderColor: {fileID: 2100000, guid: 1b0556273f3893e4b9e85a509e624f3d, type: 2}
+  delayBetweenFloors: 0.025
+  cylinderPrefab: {fileID: 6937179370376802408, guid: 321482ab92a87604bb949465dcd84028,
+    type: 3}
+  moveCameraUpInterval: 3.5
+  cameraRotationAtStart: 180
+  cameraSlideDownSpeed: 0.5
+  fallOffDetectorOutside: {fileID: 0}
+  fallOffDetectorInside: {fileID: 0}
+  popCylinderEffect: {fileID: 4419265670257998215, guid: 92c9e12915b86e2469ef5008784d0839,
+    type: 3}
+  proximityDistance: 0.4
+  explosionForce: 1
+  explosionRadius: 0.8
+  bounceForce: 1
+  celebrationEffect: {fileID: 6342842974964828950, guid: 6d6ce39cde3813744ac81f9cbe145608,
+    type: 3}
